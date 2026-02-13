@@ -1,0 +1,22 @@
+# Node
+frontend/node_modules
+frontend/build
+
+# Java / Gradle
+backend/.gradle
+backend/build
+backend/out
+backend/.idea
+backend/.classpath
+backend/.project
+backend/.settings
+
+# Docker
+*.env
+docker-compose.override.yml
+
+# macOS
+.DS_Store
+
+# Logs
+*.log

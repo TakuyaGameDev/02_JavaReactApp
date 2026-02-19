@@ -1,7 +1,8 @@
 package com.example.app.repository;
 
 import com.example.app.entity.TestTable;
+
 import org.springframework.data.jpa.repository.JpaRepository;
 
-public interface TestTableRepository extends JpaRepository<TestTable, Long> {
+public interface TestRepository extends JpaRepository<TestTable, Long> {
 }

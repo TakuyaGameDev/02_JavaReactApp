@@ -3,7 +3,7 @@ export default function Users() {
   return (
     <>
         <div>
-            Users
+            <h1>Users</h1>
         </div>
     </>
   );

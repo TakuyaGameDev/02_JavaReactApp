@@ -1,5 +1,5 @@
 import { api } from "./client";
-import { Test } from "../types/Test";
+import type { Test } from "../types/Test";
 
 export const fetchTest = async (): Promise<Test[]> => {
   const res = await api.get<Test[]>("/test");

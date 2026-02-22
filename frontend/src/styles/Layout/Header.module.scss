@@ -1,0 +1,33 @@
+@use "@/styles/_variables" as *;
+
+.container {
+  display: flex;
+  align-items: center;
+  background: $bg-header;
+  padding: 0.5rem;
+
+  box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+  border-bottom: 1px solid rgba(56,189,248,0.2);
+}
+
+.wrapper__link {
+  display: inline-block;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+.icon {
+  height: 32px;
+}
+
+@media (min-width: 768px) {
+  .icon {
+    height: 40px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .icon {
+    height: 48px;
+  }
+}

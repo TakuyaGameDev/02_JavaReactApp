@@ -1,0 +1,16 @@
+@use "@/styles/_variables" as *;
+
+.container {
+    width: 50%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.title {
+    color: $text-col-main;
+    text-align: center;
+    font-family: $text-family-main;
+    font-size: $text-size-main;
+
+    border-bottom: 1px solid rgba(56,189,248,0.2);
+}

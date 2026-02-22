@@ -1,6 +1,6 @@
 import { Routes, Route } from "react-router-dom";
 import Layout from "@/components/Layout/Layout";
-import Home from "@/pages/Home"
+import Home from "@/pages/Home";
 import Users from "@/pages/Users";
 
 function App() {

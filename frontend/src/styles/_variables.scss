@@ -1,0 +1,41 @@
+// background
+$bg-app: radial-gradient(
+  circle at top,
+  #0f172a,
+  #020617 70%
+);
+
+$bg-header: linear-gradient(
+  to bottom,
+  #111827,
+  #0f172a
+);
+$bg-card: #111827;
+
+$accent: #38bdf8;
+$accent-hover: #0ea5e9;
+
+// text
+$text-col-main: #e5e7eb;
+$text-col-sub: #94a3b8;
+$text-col-muted: #64748b;
+
+// text-size
+$text-size-main: 1.5rem;
+$text-size-sub: 1rem;
+$text-size-sm: 0.5rem;
+
+// text-family
+$text-family-main: "Zen Kurenaido";
+
+// border
+$border: #1e293b;
+
+// accent
+$primary: #22c55e;
+$primary-hover: #16a34a;
+
+// status
+$danger: #ef4444;
+$warning: #f59e0b;
+$info: #38bdf8;

@@ -1,0 +1,18 @@
+@use "@/styles/variables" as *;
+
+body {
+    margin: 0;
+    padding: 0;
+    background: $bg-app;
+    color: $text-col-main;
+    font-family: Inter, -apple-system, BlinkMacSystemFont, sans-serif;
+    line-height: 1.6;
+}
+
+.card {
+  background: #111827;
+  border-radius: 16px;
+  padding: 1rem;
+  border: 1px solid rgba(255,255,255,0.05);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+}

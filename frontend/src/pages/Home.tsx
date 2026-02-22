@@ -1,5 +1,7 @@
 import { useEffect, useState } from "react";
 import { useAppStore } from "@/stores/useAppStore";
+import style from "@/styles/Page/Home.module.scss"
+import LoginForm from "@/components/Form/LoginForm";
 import { fetchTest } from "@/api/testApi";
 import type { Test } from "@/types/Test";
 
@@ -13,11 +15,8 @@ export default function Home() {
   }, []);
 
   return (
-    <div>
-      <h1>Home</h1>
-      {tests.map((u) => (
-        <div key={u.id}>{`${u.id}:${u.name}`}</div>
-      ))}
+    <div className={style.container}>
+      <LoginForm />
     </div>
   );
 }
